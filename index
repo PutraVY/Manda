@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gueh susah hapal manda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+    <h1>Tes Manda</h1>
+
+    <div id="word" class="word">词</div>
+    <div id="pinyin" class="pinyin"></div>
+
+    <button onclick="revealPinyin()">Reveal Pinyin</button>
+    <button onclick="nextWord()">Next Word</button>
+    <button class="delete" onclick="deleteWord()">Delete Word</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
