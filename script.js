@@ -1,4 +1,5 @@
 const pinyinDict = {
+    "村子": "Cūn zǐ"
     "划": "Huà",
     "木板": "Mù bǎn",
     "庆祝": "Qìng zhù",
@@ -57,5 +58,6 @@ function deleteWord() {
     words = words.filter(word => word !== currentWord);
     nextWord();
 }
+
 
 nextWord();
