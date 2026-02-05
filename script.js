@@ -4,7 +4,7 @@ const pinyinDict = {
     "木板": "Mù bǎn",
     "庆祝": "Qìng zhù",
     "祝福": "Zhù fú",
-    "王子": "Wáng zǐ",
+    "网子": "Wǎng zǐ",
     "谦": "Qiān",
     "安静": "Ān jìng",
     "散步": "Sàn bù",
@@ -28,6 +28,7 @@ const pinyinDict = {
     "岛": "Dǎo",
     "方式": "Fāng shì",
     "文化": "Wén huà"
+    "潜" : "Qián"
 };
 
 let words = Object.keys(pinyinDict);
@@ -61,4 +62,5 @@ function deleteWord() {
 
 
 nextWord();
+
 
