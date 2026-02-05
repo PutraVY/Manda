@@ -28,7 +28,7 @@ const pinyinDict = {
     "岛": "Dǎo",
     "方式": "Fāng shì",
     "文化": "Wén huà",
-    "图按 ：Tú àn"
+    "图按"："Tú àn"
 };
 
 let words = Object.keys(pinyinDict);
@@ -62,6 +62,7 @@ function deleteWord() {
 
 
 nextWord();
+
 
 
 
