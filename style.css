@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.app {
+    background: white;
+    padding: 40px;
+    width: 360px;
+    text-align: center;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.word {
+    font-size: 64px;
+    margin-bottom: 15px;
+}
+
+.pinyin {
+    font-size: 32px;
+    color: gray;
+    min-height: 40px;
+    margin-bottom: 30px;
+}
+
+button {
+    width: 100%;
+    font-size: 20px;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.delete {
+    color: white;
+    background: #e74c3c;
+}
